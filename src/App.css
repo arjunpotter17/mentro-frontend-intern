@@ -1,38 +1,382 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App{
+    width: 2896px !important;
+height: 1684px !important;
+overflow:hidden !important;
+margin: 0 !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+#booking-btn{
+    position: absolute;
+width: 535px;
+height: 122px;
+left: 141px;
+top: 1392px;
+background: #4CAF50;
+border:none;
+filter: drop-shadow(25px 15px 150px #4CAF50);
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 45px;
+line-height: 68px;
+text-align: justify;
+letter-spacing: 0.015em;
+text-align: center;
+color: #FFFFFF;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.text-content{
+    position: absolute;
+width: 826px;
+height: 869px;
+left: 142px;
+top: 409px;
+font-family: 'Poppins';
+
 }
 
-.App-link {
-  color: #61dafb;
+#rating{
+font-style: normal;
+font-weight: 700;
+font-size: 100px;
+line-height: 150px;
+letter-spacing: 0.015em;
+color: #4CAF50;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.stars{
+width: 343px;
+height: 59px;
+left: 171px;
+top: 591px;
+display: flex;
+
 }
+
+.stars img{
+    fill:#4CAF50;
+}
+
+#name{
+width: 621px;
+height: 106px;
+left: 155px;
+top: 701px;
+font-style: normal;
+font-weight: 600;
+font-size: 80px;
+line-height: 120px;
+letter-spacing: 0.015em;
+color: #000000;
+
+}
+
+#role{
+width: 650px;
+height: 106px;
+left: 146px;
+top: 827px;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 82px;
+letter-spacing: 0.015em;
+color: #000000;
+
+}
+
+#about{
+width: 812px;
+height: 280px;
+left: 156px;
+top: 998px;
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 48px;
+text-align: justify;
+letter-spacing: 0.015em;
+color: #000000;
+
+}
+
+.name-plate{
+  position: absolute;
+  width: 839px;
+  height: 264px;
+  left: 1566px;
+  top: 1325px;
+  
+
+background: #FFFFFF;
+
+}
+
+#name-plate-name{
+ width: 693px;
+height: 180px;
+flex: none;
+order: 0;
+flex-grow: 0;
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 96px;
+text-align: center;
+letter-spacing: 0.015em;
+color: #000000;
+left: 300px;
+top: 0px;
+border:none;
+background: rgba(0, 162, 7, 0.17);
+border-radius: 40px;
+}
+
+#main-img{
+  position: absolute;
+  width: 543px;
+  height: 546px;
+  left: 1694px;
+  top: 728px;
+
+border-radius: 50%;
+z-index:5;
+transition-property: all;
+transition-duration: 0.5s;
+transition-timing-function: ease-in-out;
+}
+
+
+#arrow-right{
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  left: 2699px;
+  top: 1086px;
+  
+border-radius: 50%;
+background-color: #4CAF50;
+z-index: 20;
+}
+
+#arrow-left{
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  left: 1121px;
+  top: 1086px;
+border-radius: 50%;
+background-color: #4CAF50;
+z-index: 20;
+}
+
+.green-circle{
+  position: absolute;
+  width: 2546px;
+  height: 2584px;
+  left: 657px;
+  top: -1535px;
+border-radius: 50%;
+background: #C5F8C7;
+overflow: hidden !important;
+transition: all 0.5s ease-in-out 0.2s;
+
+
+}
+
+#track-circle{
+    box-sizing: border-box;
+    position: absolute;
+width: 1644px;
+height: 1644px;
+left:475px;
+bottom:-800px;
+border-radius: 50%;
+border: 4px dashed #4CAF50;
+}
+
+.img-carousel{
+    position: absolute;
+width: 1957px;
+height: 2083px;
+top: -150px;
+left:-120px;
+
+
+}
+
+#img-2{
+    position: absolute;
+width: 300px;
+height: 300px;
+left: 1258.43px;
+top: 167px;
+
+border-radius: 50%;
+
+}
+#img-1{
+    position: absolute;
+width: 300px;
+height: 300px;
+left: 776.76px;
+top: 13.14px;
+
+border-radius: 50%;
+
+}
+#img-5{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 303.43px;
+    top: 165px;
+
+border-radius: 50%;
+
+}
+#img-4{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 22.43px;
+    top: 621px;
+
+border-radius: 50%;
+
+}
+
+#img-3{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 1585.43px;
+    top: 591px;
+
+border-radius: 50%;
+
+}
+
+#img-6{
+    position: absolute;
+width: 300px;
+height: 300px;
+left: 28.43px;
+top: 1082px;
+
+}
+
+#img-7{
+    position: absolute;
+width: 300px;
+height: 300px;
+left: 305.43px;
+top: 1484px;
+
+}
+
+#img-8{
+    position: absolute;
+width: 300px;
+height: 300px;
+left: 774.43px;
+top: 1635px;
+
+}
+
+#img-10{
+    position: absolute;
+width: 300px;
+height: 300px;
+left: 1285.43px;
+top: 1460px;
+
+
+}
+
+#img-9{
+    position: absolute;
+width: 300px;
+height: 300px;
+left: 1583.43px;
+top: 1080px;
+
+}
+
+.name-card-enter{
+  transform: translateX(-300px);
+  opacity: 0;
+}
+
+.name-card-enter-active{
+  transform: translateX(0);
+  opacity:1;
+  transition: all 0.25s linear;
+}
+
+.name-card-enter-done{
+  transform: translateX(0);
+  opacity:1;
+}
+
+
+.name-card-exit{
+ transform: translateX(0);
+ opacity:1;
+}
+
+.name-card-exit-active{
+  transform: translateX(200px);
+  opacity: 0;
+  transition: all 0.25s linear;
+}
+
+.name-card-exit-done{
+  opacity:0;
+}
+
+.dropdown-exit{
+  opacity:1;
+}
+
+.dropdown-exit-active{
+  opacity:0;
+  transform: translateZ(-400px) scaleZ(0.5);
+  transition: transform 1s linear, opacity 1s linear;
+}
+
+.dropdown-exit-done{
+  opacity:1;
+}
+
+.image-exit{
+  opacity: 1;
+}
+
+.image-exit-active{
+  opacity: 0;
+  transform: rotate(180deg) scale(0.5);
+  transition: opacity 0.8ms linear, transform 0.8ms infinite;
+
+}
+
+.image-exit-done{
+  transform: rotate(0);
+  opacity: 1;
+}
+
+
+
+
+
